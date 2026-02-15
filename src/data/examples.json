@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Vague vs Specific Goal",
+    "badPrompt": "Help me with reporting.",
+    "goodPrompt": "You are a Data Analyst.\nYour goal is: Analyze monthly sales performance and identify the top three drivers behind the 12% decline in the North region.\nContext: We have product-level revenue, discounts, returns, and customer segment data for the last 18 months.\nConstraints: Focus on business insights and avoid speculation beyond the provided data.\nProvide the answer in the following format: Bullet points with insights and a summary table.",
+    "explanation": "The good prompt states a measurable objective, defines scope, and asks for a specific output format."
+  },
+  {
+    "title": "Missing Format Instructions",
+    "badPrompt": "You are a Solution Architect. Design a platform for payment processing in multiple regions.",
+    "goodPrompt": "You are a Solution Architect.\nYour goal is: Design a platform architecture for payment processing across three regions with failover capabilities.\nContext: The organization requires low-latency authorization, PCI controls, and near real-time settlement updates.\nConstraints: Prioritize resilience, security, and operational simplicity while keeping cloud spend predictable.\nProvide the answer in the following format: C4 Level 2 container diagram in text plus a risks and mitigations table.",
+    "explanation": "The improved version adds context, constraints, and a defined structure for the response."
+  },
+  {
+    "title": "Missing Role",
+    "badPrompt": "Create API documentation for our new order endpoint with examples.",
+    "goodPrompt": "You are a Senior Software Engineer.\nYour goal is: Create API documentation for the new order endpoint and related webhooks.\nContext: External partners will integrate this API for order placement and status tracking.\nConstraints: Use clear naming, include authentication requirements, and provide realistic sample requests.\nProvide the answer in the following format: Markdown sections with endpoint table, JSON examples, and error code list.",
+    "explanation": "Assigning a role improves response perspective and consistency of terminology."
+  },
+  {
+    "title": "Lack of Constraints",
+    "badPrompt": "You are a Business Analyst. Write requirements for account onboarding.",
+    "goodPrompt": "You are a senior Business Analyst.\nYour goal is: Write functional requirements for digital account onboarding for small business customers.\nContext: The onboarding flow includes identity verification, beneficial ownership checks, and e-signatures.\nConstraints: Include edge cases, compliance checkpoints, and dependencies on KYC services.\nProvide the answer in the following format: User stories with acceptance criteria and traceability notes.",
+    "explanation": "Constraints guide quality by forcing coverage of limitations, dependencies, and compliance needs."
+  },
+  {
+    "title": "No Context Provided",
+    "badPrompt": "You are a helpful AI assistant. Summarize this project.",
+    "goodPrompt": "You are a helpful AI assistant.\nYour goal is: Summarize the quarterly migration project for executive stakeholders.\nContext: The project moved 42 services to a new cloud platform, reduced incident volume by 28%, and finished two weeks early.\nConstraints: Keep it concise, business-focused, and suitable for a leadership update.\nProvide the answer in the following format: Executive summary in five bullet points and one next-step recommendation.",
+    "explanation": "Context supplies the facts needed for accurate output and reduces ambiguity."
+  }
+]
