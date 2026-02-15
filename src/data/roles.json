@@ -1,0 +1,32 @@
+[
+  {
+    "roleName": "Business Analyst",
+    "defaultRoleText": "You are a senior Business Analyst.",
+    "goalHint": "E.g. Write functional requirements for a payment feature.",
+    "outputFormatHint": "User stories with acceptance criteria."
+  },
+  {
+    "roleName": "Solution Architect",
+    "defaultRoleText": "You are a Solution Architect.",
+    "goalHint": "Design a high-level architecture for a scalable system.",
+    "outputFormatHint": "C4 Level 2 container diagram in text."
+  },
+  {
+    "roleName": "Data Analyst",
+    "defaultRoleText": "You are a Data Analyst.",
+    "goalHint": "Analyze a dataset and identify key trends.",
+    "outputFormatHint": "Bullet points with insights and a summary table."
+  },
+  {
+    "roleName": "Software Developer",
+    "defaultRoleText": "You are a Senior Software Engineer.",
+    "goalHint": "Generate production-ready TypeScript code.",
+    "outputFormatHint": "Code block with explanation."
+  },
+  {
+    "roleName": "General",
+    "defaultRoleText": "You are a helpful AI assistant.",
+    "goalHint": "Describe the task clearly.",
+    "outputFormatHint": "Structured bullet points."
+  }
+]

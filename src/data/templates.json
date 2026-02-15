@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Functional Requirements (BA)",
+    "category": "Business Analysis",
+    "whenToUse": "Define clear requirements for new product capabilities.",
+    "promptText": "You are a senior Business Analyst.\nYour goal is: Write functional requirements for a payment feature that supports cards and digital wallets.\nContext: The organization is launching a new checkout experience for web and mobile channels this quarter.\nConstraints: Include regulatory considerations, edge cases, dependencies, and non-functional requirements.\nProvide the answer in the following format: User stories with acceptance criteria."
+  },
+  {
+    "title": "High-Level Architecture (SA)",
+    "category": "Architecture",
+    "whenToUse": "Evaluate and communicate a target architecture for strategic systems.",
+    "promptText": "You are a Solution Architect.\nYour goal is: Design a high-level architecture for a scalable event-driven order processing platform.\nContext: Current systems are monolithic and must support regional expansion, high availability, and observability.\nConstraints: Use managed cloud services, highlight integration boundaries, and call out security controls.\nProvide the answer in the following format: C4 Level 2 container diagram in text."
+  },
+  {
+    "title": "SQL Query Generator (Data)",
+    "category": "Data",
+    "whenToUse": "Create analytical SQL for reporting and decision support.",
+    "promptText": "You are a Data Analyst.\nYour goal is: Create an SQL query to analyze monthly customer churn trends by subscription tier.\nContext: Data exists in tables for accounts, subscriptions, invoices, and cancellation events.\nConstraints: Use ANSI SQL, include clear assumptions, and optimize for readability and maintainability.\nProvide the answer in the following format: SQL code block followed by a short explanation and a result interpretation checklist."
+  },
+  {
+    "title": "API Documentation (Dev)",
+    "category": "Development",
+    "whenToUse": "Draft consistent API docs for internal and partner teams.",
+    "promptText": "You are a Senior Software Engineer.\nYour goal is: Write API documentation for a customer profile REST endpoint.\nContext: The endpoint supports create, update, retrieve, and delete operations with OAuth2 authentication.\nConstraints: Cover request and response schemas, status codes, error handling, and example payloads.\nProvide the answer in the following format: Markdown sections with endpoint table, JSON examples, and implementation notes."
+  },
+  {
+    "title": "Professional Email Draft",
+    "category": "Communication",
+    "whenToUse": "Prepare concise, audience-appropriate stakeholder communication.",
+    "promptText": "You are a helpful AI assistant.\nYour goal is: Write a professional email updating stakeholders on the status of a delayed release.\nContext: The release is delayed by one week due to performance test findings and mitigation work.\nConstraints: Keep tone accountable and solution-oriented, include next steps, and avoid technical jargon.\nProvide the answer in the following format: Email draft with subject line, greeting, body, and closing."
+  }
+]
